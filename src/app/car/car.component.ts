@@ -17,12 +17,12 @@ export class CarComponent implements OnInit {
       {
       name : "BMW",
       color : "Red",
-      rimSize : 20
+      rimSize : 10
     },
     {
       name : "Polo",
       color : "Blue",
-      rimSize : 20
+      rimSize : 30
     },
     {
       name : "Kia",
@@ -32,7 +32,7 @@ export class CarComponent implements OnInit {
     {
       name : "Tazz",
       color : "White",
-      rimSize : 20
+      rimSize : 40
     }
   ]
   }
