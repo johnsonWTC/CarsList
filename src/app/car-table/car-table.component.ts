@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { car } from '../car';
 
 @Component({
   selector: 'app-car-table',
@@ -9,6 +10,7 @@ export class CarTableComponent implements OnInit {
 
   constructor() { }
 
+  @Input() carsList : car[] = []
   ngOnInit(): void {
   }
 
