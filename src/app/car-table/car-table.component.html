@@ -1,6 +1,11 @@
-<table>
-    <th>Name</th>
-    <th>Color</th>
-    <th>Rim Size</th>
+<table> 
+        <th>Name</th>
+        <th>Color</th>
+        <th>Rim Size</th>
+    <tr *ngFor="let car of carsList">
+        <td>{{car.name}}</td>
+        <td>{{car.color}}</td>
+        <td>{{car.rimSize}}</td>
+    </tr>
 </table>
 
